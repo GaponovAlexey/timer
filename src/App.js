@@ -1,13 +1,12 @@
-import { UseState } from "./Components/UseState";
-import { Timer } from "./Components/Timer";
+import { Context } from "./Components/Context/Context"
+import { Books } from "./Components/pages/Books"
 
 function App() {
   return (
-    <div className="App">
-    {/* <Timer /> */}
-    <UseState />
-    </div>
-  );
+    <Context >
+      <Books />
+    </Context>
+  )
 }
 
-export default App;
+export default App
