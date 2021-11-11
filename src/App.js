@@ -1,11 +1,10 @@
-import { Context } from "./Components/Context/Context"
-import { Books } from "./Components/pages/Books"
+import { Timer } from "./Components/Timer/Timer"
 
 function App() {
   return (
-    <Context >
-      <Books />
-    </Context>
+    <div>
+      <Timer />
+    </div>
   )
 }
 
